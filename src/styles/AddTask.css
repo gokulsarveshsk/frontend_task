@@ -22,7 +22,7 @@
 
 .addtask-table .ant-table-thead > tr > th{
   background-color: white;
-  color: #0B4266;
+  color: #000000;
   font-family: poppins;
 
 }
@@ -141,7 +141,7 @@
   float: left;
   border: none;
   cursor: pointer;
-  color: #0B4266;
+  color: #000000;
   
 }
 
@@ -159,8 +159,8 @@
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: #0B4266; 
-  /* #0B42664D */
+  background: #000000; 
+  /* #0000004D */
   border: none;
   cursor: pointer;
   color: white;
@@ -191,15 +191,15 @@
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  /* background: #0B42664D;  */
+  /* background: #0000004D;  */
   border: none;
   cursor: pointer;
-  color: #0B4266;
+  color: #000000;
 }
 
 /* 
 .ant-select-selector{
-  background-color: #0B4266 !important;
+  background-color: #000000 !important;
   color: #fff !important;
 }
 
@@ -236,7 +236,7 @@
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: #0B4266; 
+  background: #000000; 
   border: none;
   cursor: pointer;
   color: #ffffff; 
@@ -258,7 +258,7 @@
   background:white; 
   border: none;
   cursor: pointer;
-  color:  #0B4266; 
+  color:  #000000; 
 
 }
 #submit-addtask{
@@ -274,9 +274,9 @@
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  /* background: #0B4266;  */
-  background: #0B42664D; 
-  color: #0B4266;
+  /* background: #000000;  */
+  background: #0000004D; 
+  color: #000000;
   border: none;
   cursor: pointer;
   /* color: #ffffff;  */
@@ -299,9 +299,9 @@
   align-items: center;
   gap: 10px;
   border-radius: 4px;
-  background: #0B4266; 
-  /* background: #0B42664D;  */
-  /* color: #0B4266; */
+  background: #000000; 
+  /* background: #0000004D;  */
+  /* color: #000000; */
   border: none;
   cursor: pointer;
   color: #ffffff; 
@@ -327,7 +327,7 @@
   box-shadow: 2px 2px 4px rgba(0,0,0,0.4);
   gap: 10px;
   border-radius: 4px;
-  background: #0B4266; 
+  background: #000000; 
   border: none;
   cursor: pointer;
   color: #ffffff; 
@@ -343,7 +343,7 @@
     align-items: center;
     gap: 10px;
     border-radius: 4px;
-    background: #0B4266; 
+    background: #000000; 
     border: none;
     cursor: pointer;
    

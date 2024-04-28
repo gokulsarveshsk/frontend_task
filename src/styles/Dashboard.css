@@ -28,11 +28,11 @@ img{
   }
 
   #side{
-    background-color: #E7ECF0;
+    background-color: #E4EFE7;
 
   }
   #menu{
-    background-color: #E7ECF0;
+    background-color: #E4EFE7;
     color: black;
     height:50px;
     width:190px;
@@ -49,7 +49,7 @@ color: rgb(0, 0, 0);
 
 
 #menu.active{
-  background-color: #0B4266;
+  background-color: #000000;
   color: white;
 }
 
@@ -68,7 +68,7 @@ color: rgb(0, 0, 0);
   
   .add,.clear{
     
-    background-color: #0B4266;
+    background-color: #000000;
     color: white;
     width: 130px;
     height: 30px;
@@ -97,7 +97,7 @@ color: rgb(0, 0, 0);
     width: 130px;
     height: 35px;
     margin-left: 150px;
-    background-color: #0B4266;
+    background-color: #000000;
     justify-content: center;
     color: white;
   }
@@ -113,7 +113,7 @@ color: rgb(0, 0, 0);
 } */
 
 .add {
-  background-color: #0B4266;
+  background-color: #000000;
   color: white;
   font-size: 15px;
   width: 130px;
@@ -128,7 +128,7 @@ color: rgb(0, 0, 0);
 }
 
 .add:hover ,.clear:hover{
-  background-color: #9bb2c0 !important;
+  background-color: #E4EFE7 !important;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -150,7 +150,7 @@ color: rgb(0, 0, 0);
 
 .create{
   width: 60px;
-  background-color: #0B4266;
+  background-color: #000000;
   color:white;
   margin-left: auto;
   flex-direction: row-reverse;
@@ -158,12 +158,12 @@ color: rgb(0, 0, 0);
 }
 
 .create:hover{
-  background-color: #9bb2c0 !important;
+  background-color: #E4EFE7 !important;
   color: rgb(255, 255, 255) !important;
 }
 
 .admin{
-  background-color: #0B4266;
+  background-color: #000000;
   color: white;
   font-size: 15px;
   width: 200px;
@@ -177,7 +177,7 @@ color: rgb(0, 0, 0);
 }
 
 .admin:hover{
-  background-color: #9bb2c0 !important;
+  background-color: #E4EFE7 !important;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -206,7 +206,7 @@ color: rgb(0, 0, 0);
 }
 
 .extra{
-  background-color: #0B4266;
+  background-color: #000000;
   color: white;
   font-size: 15px;
   width: 150px;
@@ -218,12 +218,12 @@ color: rgb(0, 0, 0);
 }
 
 .extra:hover{
-  background-color: #9bb2c0 !important;
+  background-color: #E4EFE7 !important;
   color: rgb(255, 255, 255) !important;
 }
 
 .createasset{
-  background-color: #0B4266;
+  background-color: #000000;
   color: #ffffff;
   width: 170px;
   height: 40px;
@@ -231,7 +231,7 @@ color: rgb(0, 0, 0);
 }
 
 .createasset:hover , .newcategory:hover{
-  background-color: #9bb2c0 !important;
+  background-color: #E4EFE7 !important;
   color: rgb(255, 255, 255) !important;
 }
 
@@ -243,30 +243,11 @@ color: rgb(0, 0, 0);
 }
 
 .newcategory{
-  background-color: #0B4266 !important;
+  background-color: #000000 !important;
   color: #ffffff !important;
   width: 170px;
   height: 40px;
   margin-top: 10px;
-  /* display: flex;
-  align-items: center;
-  align-content: stretch;
-  justify-content: space-around;
-  margin-left: 100px; */
-}
-
-#signout{
-  background-color: #E7ECF0;
-    height:50px;
-    width:190px;
-    font-Size:16.5px;
-    font-family: revert;
-    text-align: left;
-    margin-top: 0px;
-    text-decoration: none;
-}
-#signout:hover{
-  background-color: #ffffff;
 }
 
 .labeltext{

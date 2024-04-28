@@ -71,7 +71,7 @@
   }
   .createuser-main{
     margin-bottom: 10px;
-    color: #0B4266;
+    color: #000000;
     text-align: left;
     font-family: poppins;
     font-size: medium;
@@ -112,10 +112,10 @@
       align-items: center;
       gap: 10px;
       border-radius: 4px;
-      background: #0B42664D; 
+      background: #0000004D; 
       border: none;
       cursor: pointer;
-      color: #0B4266;
+      color: #000000;
   }
   
   #submit{
@@ -128,7 +128,7 @@
       align-items: center;
       gap: 10px;
       border-radius: 4px;
-      background: #0B4266; 
+      background: #000000; 
       border: none;
       cursor: pointer;
       color: #ffffff; 
@@ -183,7 +183,7 @@
       align-items: center;
       gap: 10px;
       border-radius: 4px;
-      background: #0B4266; 
+      background: #000000; 
       border: none;
       cursor: pointer;
       color: #ffffff; 

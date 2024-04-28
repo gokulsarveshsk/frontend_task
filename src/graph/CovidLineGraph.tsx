@@ -28,8 +28,8 @@ const LineGraph = () => {
 
   return (
     <div>
-        <h2 style={{ textAlign: 'center', color:'#0B4266', marginTop:'0px' }}>{selectedType.charAt(0).toUpperCase() + selectedType.slice(1)} Fluctuations</h2>
-      <div>
+        <h2 style={{ textAlign: 'center', color:'#000000', marginTop:'0px' }}>{selectedType.charAt(0).toUpperCase() + selectedType.slice(1)} Fluctuations</h2>
+      <div style={{ display: 'flex',justifyContent: 'flex-end'}}>
         <Select value={selectedType} onChange={handleDataTypeChange}>
           <Select.Option value="cases">Cases</Select.Option>
           <Select.Option value="deaths">Deaths</Select.Option>
@@ -39,14 +39,14 @@ const LineGraph = () => {
       <ResponsiveContainer width="100%" height={400}>
         <LineChart
           data={filteredData}
-          margin={{ top: 5, right: 30, left: 20, bottom: 5 }}
+          margin={{ top: 5, right: 30, left: 30, bottom: 5 }}
         >
-          <XAxis dataKey="date" />
+          <XAxis dataKey="date"/>
           <YAxis />
           <CartesianGrid strokeDasharray="3 3" />
           <Tooltip />
           <Legend />
-          <Line type="monotone" dataKey="value" stroke="#8884d8" />
+          <Line type="monotone" dataKey="value" stroke="#000000" />
         </LineChart>
       </ResponsiveContainer>
     </div>

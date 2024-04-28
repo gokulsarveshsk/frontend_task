@@ -2,7 +2,7 @@ import React, {useState, useEffect} from "react";
 import { Modal,Menu} from "antd";
 import { Link, useNavigate,useLocation } from "react-router-dom";
 import './styles/Dashboard.css'
-import { PoweroffOutlined, HomeFilled, UserAddOutlined, AppstoreAddOutlined, UserOutlined, UsergroupAddOutlined, ScheduleOutlined, PullRequestOutlined, ScheduleFilled } from "@ant-design/icons";
+import { HomeFilled, DatabaseOutlined, UserAddOutlined } from "@ant-design/icons";
 
 const Sidebar: React.FC = () => {
     const [activeKey, setActiveKey] = useState("");
@@ -17,9 +17,6 @@ const Sidebar: React.FC = () => {
         console.log("pathsegments", pathSegments[pathSegments.length - 1])
     }, [Location.pathname]);
 
-    const isRequestsActive = activeKey === "approvalrequest" || activeKey === "monthtasks";
-    const isEmployeeRequestActive = activeKey === 'calendar' || activeKey === 'dashboard';
-    const isAssignTask = activeKey ==='taskassign' || activeKey ==='taskassigntable' || activeKey == 'employeetaskassigndetails'
 
     return (
         <div>
@@ -31,31 +28,23 @@ const Sidebar: React.FC = () => {
                             icon={<HomeFilled />}
                             className={activeKey==='dashboard' ? "active" : ""}
                         >
-                            <Link to="/">Dashboard</Link>
+                            <Link to="/">Charts and Maps</Link>
                         </Menu.Item>
                         <Menu.Item
                             id="menu"
                             key="createcontact"
-                            icon={<ScheduleOutlined />}
+                            icon={<UserAddOutlined />}
                             className={activeKey === "createcontact" ? "active" : ""}
                         >
                             <Link to="/createcontact">Create Contact</Link>
                         </Menu.Item>
-                        {/* <Menu.Item
-                            id="menu"
-                            key="monthRequest"
-                            icon={<ScheduleOutlined />}
-                            className={activeKey === "monthRequest" ? "active" : ""}
-                        >
-                            <Link to="/employee/monthRequest">Month Request</Link>
-                        </Menu.Item> */}
                         <Menu.Item
                             id="menu"
                             key="viewcontact"
-                            icon={<ScheduleFilled />}
+                            icon={<DatabaseOutlined />}
                             className={activeKey==='viewcontact' ? "active" : ""}
                         >
-                            <Link to="/viewcontact">View Contact</Link>
+                            <Link to="/viewcontact">Edit Contacts</Link>
                         </Menu.Item>
                     </>
             </Menu>
